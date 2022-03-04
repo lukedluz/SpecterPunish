@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SpecterPunish">
+    <output-path>$PROJECT_DIR$/../../SP Server/plugins</output-path>
+    <root id="archive" name="SpecterPunish.jar">
+      <element id="module-output" name="SpecterPunish" />
+    </root>
+  </artifact>
+</component>

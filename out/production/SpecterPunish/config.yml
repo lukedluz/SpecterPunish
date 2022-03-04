@@ -1,0 +1,40 @@
+#  _____ _____  ______ _____ _______ ______ _____  _____  _    _ _   _ _____  _____ _    _
+# / ____|  __ \|  ____/ ____|__   __|  ____|  __ \|  __ \| |  | | \ | |_   _|/ ____| |  | |
+#| (___ | |__) | |__ | |       | |  | |__  | |__) | |__) | |  | |  \| | | | | (___ | |__| |
+# \___ \|  ___/|  __|| |       | |  |  __| |  _  /|  ___/| |  | | . ` | | |  \___ \|  __  |
+# ____) | |    | |___| |____   | |  | |____| | \ \| |    | |__| | |\  |_| |_ ____) | |  | |
+#|_____/|_|    |______\_____|  |_|  |______|_|  \_\_|     \____/|_| \_|_____|_____/|_|  |_|
+#
+#
+# Desenvolvedor: Lucas L.
+# Discord: lukedluz#8795
+# Versão: 1.0
+# Site: https://specterplugins.com
+#
+# Placeholders:
+# @id - ID da punição
+# @data - Data da punição
+# @player - Membro punido
+# @staff - Staffer que puniu
+# @motivo - Motivo da punição
+# @prova - Prova usada na punição
+
+mysql:
+  host: localhost
+  user: root
+  password: suasenha
+  database: specterplugins
+
+Permissoes:
+  Usar: 'SpecterPunish.Usar' #Permissão para usar o /punir;
+  Staff: 'SpecterPunish.Staff' #Permissão de staff;
+
+Mensagens:
+  ErroComando: '&cUse o comando &f/punir&c.' #Mensagem ao digitar o comando errado.
+  SemProva: '&cInsira a prova da punição.' #Mensagem ao tentar punir sem provas.
+  SemPermissao: '&cSem permissão.' #Mensagem sem permissão.
+  PunidoDisconnect: '&b&lSpecter Plugins\n\n&f&r\n&cVocê foi punido do servidor!\n§cPara recorrer a sua punição visite nosso discord!\n&cID da punição: §f#@ID&C.\n&cData da punição: &f@data&c.\n&cAcesse: &fhttps://bit.ly/SpecterPlugins' #Mensagem ao desconectar por alguma punição.
+  PunidoPor: '&c* O jogador &f@player &cfoi punido por &f@staff&c.' #Mensagem enviada ao chat quando um jogador for punido.
+  JogadorPunido: '&c* O jogador &f@player &cfoi punido.' #Mensagem enviada ao chat quando um jogador for punido.
+  Motivo: '&cDiante do motivo:\n&f@motivo&c.\n&f\n' #Mensagem que será enviada contendo o motivo da punição.
+  ConfirmarPunicao: '&aClique aqui para punir o jogador por esse motivo.' #Mensagem para confirmar a punição.
